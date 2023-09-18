@@ -1,0 +1,229 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color: #ccc;
+}
+body {
+  font-family: "Poppins", sans-serif !important ;
+  font-size: 0.9rem !important;
+}
+body {
+  /***background: linear-gradient(to right, #7700ff, rgb(253, 54, 87));***/
+  background-image: url("../img/Lawrencium.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: large;
+  margin: 10px;
+}
+
+nav ul li a:hover {
+  color: #c300ff;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.prestamo {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.logo figure {
+  width: 100%;
+}
+
+.logo figure img {
+  width: 200px;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white !important;
+  font-size: x-large;
+  margin: auto;
+}
+
+.txt-logo {
+  width: 100%;
+  margin-left: 35%;
+  margin-bottom: 40px;
+}
+
+.txt-logo img {
+  width: 500px;
+  border-radius: 49%;
+  box-shadow: 10px 1px 1px 5px #333;
+}
+
+.txt h1 {
+  color: white;
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px 1px #333;
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Estilos para los campos de entrada de texto y números */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+  background-color: #c300ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #7700ff;
+}
+
+/* Estilos para los errores de validación */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+form #button {
+  display: flex;
+  justify-content: center;
+}
+
+/* css prestamo html */
+.prestamo h1,
+p {
+  color: white;
+}
+.prestamo {
+  display: flex;
+  justify-content: center;
+}
+
+#titulo {
+  color: rgb(255, 29, 255);
+}
+
+.requisitos-prestamos {
+  display: grid;
+  height: 50vh; /* Ajusta esto según tus necesidades para centrar verticalmente */
+  justify-items: center; /* Centrar horizontalmente */
+  align-items: first baseline; /* Centrar verticalmente */
+}
+
+.info-prestamo {
+  margin: 100px;
+  font-size: 1.5em;
+}
+.info-prestamo h1 {
+  color: #c300ff;
+}
+
+/* CSS tasa de interes html */
+
+.tasa-interes {
+  text-align: center;
+  margin-top: 100px;
+  color: aliceblue;
+  font-size: 1.6em;
+}
+#img-tasa {
+  width: 100%;
+}
+
+#img-tasa img {
+  width: 300px;
+}
+.interes-info {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  font-size: 1.4em;
+  color: #ffffff;
+}
+.interes-info h2,
+p {
+  margin: 15px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 0.2em;
+  display: flex;
+  flex-direction: row;
+}
+
+footer p {
+  color: black;
+}
+
+footer a img {
+  width: 50px;
+}

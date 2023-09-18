@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon" />
+    <title>Obten tu prestamo 100% online!</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <figure><img src="img/logo.jpeg" alt="" /></figure>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="html/prestamo.html">Préstamos</a></li>
+          <li><a href="html/interes.html">Tasas de Interés</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="prestamo">
+      <section class="txt">
+        <figure class="txt-logo"><img src="img/logo.jpeg" alt="" /></figure>
+        <h1>Préstamos personales</h1>
+        <h3>100% en linea</h3>
+        <p>
+          Te ofrecemos los créditos online más seguros, rápidos y flexibles de
+          Perú
+        </p>
+        <p><br />¡Solicita tu préstamo online ahora!</p>
+      </section>
+      <form action="#" method="post">
+        <h1>Solicitud de Préstamo</h1>
+        <!-- Campo de nombre -->
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required /><br />
+
+        <!-- Campo de correo electrónico -->
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required /><br />
+
+        <!-- Campo de cantidad del préstamo -->
+        <label for="cantidad">Cantidad del préstamo:</label>
+        <input type="number" id="cantidad" name="cantidad" required /><br />
+
+        <!-- Campo de plazo del préstamo -->
+        <label for="plazo">Plazo del préstamo (en meses):</label>
+        <input type="number" id="plazo" name="plazo" required /><br />
+
+        <!-- Campo de comentarios -->
+        <label for="comentarios">Comentarios adicionales:</label><br />
+        <textarea
+          id="comentarios"
+          name="comentarios"
+          rows="4"
+          cols="50"
+        ></textarea
+        ><br />
+
+        <!-- Botón de envío -->
+        <section id="button">
+          <input type="submit" value="Enviar Solicitud" />
+        </section>
+      </form>
+    </section>
+    <footer>
+      <p>Red social</p>
+      <a href="https://www.instagram.com/fintechcredilid" target="_blank"
+        ><figure><img src="img/ig.png" alt="" /></figure
+      ></a>
+      <p>
+        @Copyright 2023 Fintech Credilid | Todos los derechos reservados | Lima,
+        Perú.
+      </p>
+    </footer>
+  </body>
+</html>
